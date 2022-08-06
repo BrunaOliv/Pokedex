@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Subject } from 'rxjs';
+import { forkJoin, Subject } from 'rxjs';
 import { PokeApiService } from 'src/app/service/pokeApi.service';
 
 @Component({
